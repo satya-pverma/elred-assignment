@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.imagelist{
+  cursor: pointer;
+}
+/* 
+.imagelist:hover{
+  transform: scale(1.02);
+  transition: .1s ease;
+  border: 2px solid red;
+} */
